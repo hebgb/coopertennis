@@ -1,0 +1,202 @@
+html {
+	background: #24AAF4;
+}
+
+body {
+	/* Firefox 3.6+ */
+	background: #24AAF4;
+  background-image: -moz-linear-gradient(#26C2EA, #24AAF4);
+  /* Safari 4+, Chrome 1+ */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#24AAF4), to(#26C2EA));
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -webkit-linear-gradient(#26C2EA, #24AAF4); 
+  /* Opera 11.10+ */
+  background-image: -o-linear-gradient(#26C2EA, #24AAF4);
+	color: #eee;
+	font-family: Cambria, Georgia;
+	font-size: 0.9em;
+}
+
+a:link, a:visited {
+	color: #E0DD29;
+}
+
+a:hover {
+	color: #FFFA2F;
+}
+
+a:active {
+	color: #DBD829;
+}
+
+.header {
+	width: 1000px;
+	margin: auto;
+	height: 120px;
+	background-color: #084681; /* fallback color */
+	background-image: url(../images/header_bg.png);
+	/* Firefox 3.6+ */
+  background-image: -moz-linear-gradient(#0876C3, #09549C);
+  /* Safari 4+, Chrome 1+ */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#09549C), to(#0876C3));
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -webkit-linear-gradient(#0876C3, #09549C);
+  /* Opera 11.10+ */
+  background-image: -o-linear-gradient(#0876C3, #09549C);
+	overflow: hidden;
+}
+
+p { font-size: 1.1em; }
+
+h1, h2, h3, h4 { margin-bottom: 5px; color: #fff; }
+
+h2, h3 { font-weight: 100; }
+
+p {
+	padding: 0 5px;
+}
+
+h1 {
+	display: block;
+	background: #287FB2;
+	border-bottom: 1px solid #1E4B91;
+	padding: 0 0 10px 5px;
+}
+
+h4 { font-size: 1.3em; }
+
+dl {
+	padding-left: 5px;
+	font-size: 1.2em;
+}
+
+.head, .foot {
+	width: 1000px;
+	margin: auto;
+}
+
+div#logo {
+	float: left;
+	width: 50%;
+}
+
+.wrapper {
+	clear: both;
+	width: 1000px;
+	margin: auto;
+	background: #09549C;
+	text-align: left;
+}
+
+div#menu {
+	width: 1000px;
+	background: #287FB2;
+}
+
+div#menu span {
+	display: table-cell;
+	width: 20em;
+}
+
+div#menu span {
+	border-right: 1px solid rgba(0,0,0,0.2);
+	border-left: 1px solid rgba(255,255,255,0.2);
+}
+
+div#menu span:first-child {
+	border-left: 0px;
+}
+
+div#menu span:last-child {
+	border-right: 0px;
+}
+
+div#menu span a {
+	display: block;
+	padding: 5px;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+div#menu span a:hover {
+	background: #208BC3;
+}
+
+div#photos {
+	width: 100%;
+	height: 200px;
+}
+
+div#main {
+	display: table-cell;
+	width: 1000px;
+}
+
+div#contact {
+	display: table-cell;
+	width: 600px;
+}
+
+#main table, #contact table {
+	font-size: 1.2em;
+}
+
+#main table th, #contact table th {
+	vertical-align: top;
+}
+
+#main table th td, #contact table th td {
+	padding: 4px;
+}
+
+div.coaching {
+	display: block;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid rgba(255,255,255,0.2);
+	background: #09549C;
+	/* Firefox 3.6+ */
+  background-image: -moz-linear-gradient(#0A67C0, #09549C);
+  /* Safari 4+, Chrome 1+ */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#09549C), to(#0A67C0));
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -webkit-linear-gradient(#0A67C0, #09549C);
+  /* Opera 11.10+ */
+  background-image: -o-linear-gradient(#0A67C0, #09549C);
+	color: #eee;
+}
+
+.coaching ul li {
+	font-size: 1.2em;
+}
+
+div#right {
+	display: table-cell;
+	width: 400px;
+}
+
+ul.downloads {
+	font-size: 1.2em;
+}
+
+div#footer {
+	display: block;
+	background: #1E79B7;
+	width: 1000px;
+	margin: auto;
+}
+
+.foot {
+	border-top: 1px solid rgba(255,255,255,0.3);
+	padding: 5px 0;
+	font-size: 1em;
+}
+
+.foot table tr :last-child {
+	text-align: right;
+}
+
+.right-text { text-align: right; }
